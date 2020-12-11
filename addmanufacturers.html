@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="js/addmanufacturers.js" type="text/javascript"></script>
+<script src="js/deletemanufacturers.js" type="text/javascript"></script>
+<form id="addmanufacturer">
+    <table id="addmanufacturerTable">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" required="required" autofocus placeholder="Ferrari"/></td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td><input type="text" name="consumption" required="required" autofocus placeholder="Hungary" /></td>
+        </tr>
+        <tr>
+            <td>Founded:</td>
+            <td><input type="number" name="founded" required="required" autofocus placeholder="1980" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="add" value="Add manufacturer" ></td>
+            <td></td>
+        </tr>
+    </table>
+    <img src="images/gyarto.jpg" id="gyarto"/>
+</form>
+<form id="deletemanufacturer">
+    <table id="deletemanufacturerTable">
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="name" required="required" autofocus placeholder="5fcbe9e813088d0017318f79"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="delete" value="Delete car" ></td>
+            <td></td>
+        </tr>
+    </table>
+    <img src="images/gyarto2.jpg" id="gyarto2"/>
+</form>
+</html>

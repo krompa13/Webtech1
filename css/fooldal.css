@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(137, 194, 212);
+}
+
+a:link {
+    color: rgb(10, 2, 83);
+}
+
+a:visited {
+    color: rgb(128, 0, 0);
+}
+
+.contentImage {
+    width: 100px;
+}
+
+#banner {
+    height: 160px;
+    background: rgb(28, 0, 128);
+    color: rgb(218, 241, 8);
+    font-size: 140px;
+}
+
+#menuBar {
+    font-size: 20px;
+    float: right;
+    background: #4545f5;
+    margin-top: 50px;
+}
+
+#menuBar .menuButton {
+    width: 150px;
+    background: rgb(32, 238, 77);
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0,7s;
+}
+
+#menuBar .menuButton:HOVER {
+    background: rgb(255, 255, 255);
+    border: 5px solid gray;
+    color: white;
+}
+
+.innerTable {
+    border: 1px double;
+    width: auto;
+}
+
+#carTable {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px rgb(211, 7, 7) ridge;
+    border-collapse: collapse;
+}
+
+#carTable td {
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 30px;
+    width: 50%;
+}
+#carTable th {
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 60%;
+}
+#manufacturersTable {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px rgb(218, 25, 25) ridge;
+    border-collapse: collapse;
+}
+
+#manufacturersTable td {
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+#manufacturersTable th {
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+
+.centeredTd {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 25px auto;
+    max-width: 60%;
+    height: auto;
+}
+#addcarTable {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px rgb(209, 2, 2) ridge;
+    border-collapse: collapse;
+    
+}
+#addcarTable td{
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+#deletecarTable{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px  rgb(209, 2, 2) ridge;
+    border-collapse: collapse;
+}
+
+#deletecarTable td{
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+#addmanufacturerTable{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px rgb(218, 25, 25) ridge;
+    border-collapse: collapse;
+}
+
+#addmanufacturerTable td{
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+#deletemanufacturerTable{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px  rgb(218, 25, 25) ridge;
+    border-collapse: collapse;
+}
+
+#deletemanufacturerTable td{
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+input[type=submit] {
+    background-color: #edfa32;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: 2px solid #edfa32;
+    text-align: center;
+}
+#kep1 {
+    display: block;
+    margin: 7px auto;
+    max-width: 20%;
+    height: auto;
+}
+#kep2 {
+    display: block;
+    margin: 10px auto;
+    max-width: 30%;
+    height: auto;
+}
+#gyarto {
+    display: block;
+    margin: 10px auto;
+    max-width: 30%;
+    height: auto;
+}
+#gyarto2 {
+    display: block;
+    margin: 10px auto;
+    max-width: 30%;
+    max-height: 20%;
+    border: 5px solid rgb(3, 3, 3);
+}
+#modifycarTable {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px rgb(209, 2, 2) ridge;
+    border-collapse: collapse; 
+}
+#modifycarTable td {
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+#modifymanufacturerTable{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px rgb(209, 2, 2) ridge;
+    border-collapse: collapse; 
+}
+#modifymanufacturerTable td {
+    border: 3px rgb(0, 17, 255) ridge;
+    height: 20px;
+    width: 50%;
+}
+#modify{
+    display: block;
+    margin: 7px auto;
+    max-width: 40%;
+    height: auto;
+}
